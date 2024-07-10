@@ -17,7 +17,11 @@ export default function Home() {
         <Text style={styles.balanceText}>Balance: ${balance}</Text>
       </View>
       <View style={styles.buttonContainer}>
-        <Button onPress={handleSend} icon="send" mode="contained">
+        <Button
+          onPress={() => router.push("/send")}
+          icon="send"
+          mode="contained"
+        >
           Send
         </Button>
         <Button

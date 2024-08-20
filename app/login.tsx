@@ -82,5 +82,6 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 8,
+    borderRadius: 8,
   },
 });
